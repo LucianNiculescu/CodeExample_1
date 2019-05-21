@@ -1,0 +1,5 @@
+body.networking.walled-garden #createWalledGardenForm{margin-top:0}
+
+body.networking.walled-garden .dropdown-display.normal-cursor {cursor: default !important;}
+body.networking.walled-garden .widget-sub-item {pointer-events: auto;}
+body.networking.walled-garden .widget-sub-item.disabled a:hover{color:#333 !important;}

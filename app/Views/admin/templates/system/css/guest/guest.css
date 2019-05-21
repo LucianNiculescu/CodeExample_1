@@ -1,0 +1,73 @@
+/* Colours to be overridden in theme change -  move elsewhere */
+.dark-bg{ background: rgba(0,0,0,0.7); }
+
+.btn-primary { color: #fff; background-color: #00adef!important; border-color: #00adef!important; }
+.btn-primary:hover{	background-color: #f5f5f5!important; border-color: #f5f5f5!important; color:#000!important; }
+a, h2{ color: #00adef!important; }
+.page-login-v3 form .form-material label { color: #a3afb7; }
+.page-login-v3 form .form-material label.error{color:#f96868;}
+.form-control{color:#fff;}
+
+.btn{border-radius:0;}
+.align-center{text-align: center;}
+
+video { position: fixed; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: auto;	z-index: -100;
+	transform: translateX(-50%) translateY(-50%); /*background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;*/
+	background-size: cover;	transition: 1s opacity; }
+input:-webkit-autofill { -webkit-box-shadow: 0 0 0px 1000px white inset!important; }
+
+/*input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill{background:transparent!important;}*/
+.row-full-height { height: 420px; margin-top:180px!important; }
+.col-full-height { height: 100%; vertical-align: middle; }
+body{background-color: #333;}
+.page-login-v3:before {	position: fixed; top: 0; left: 0; z-index: -1; width: 100%; height: 100%; content: '';}
+.page-login-v3 .panel {margin-bottom: 45px; background: rgba(0,0,0,0.6);	border-radius: 4px; }
+.page-login-v3 .panel .panel-body { padding: 50px 40px 40px; }
+.page-login-v3 .panel .brand-text { margin-top: 8px; }
+.page-login-v3 form { margin: 45px 0 30px; }
+/*.page-login-v3 form a {	margin-left: 20px; }*/
+.page-login-v3 form .form-material.floating + .page-login-v3 form .form-material.floating { margin-top: 30px; }
+.page-login-v3 form .form-material label { font-weight: 300; }
+.page-login-v3 form .form-material .form-control{padding:10px; position:relative; top:4px;}
+/*.login-page-marketing-text{font-size:25px;}*/
+/*.brand-title{font-size: 50px;}*/
+.lost-password-form-container, .reset-password-form-container{margin-top:200px;}
+/*@media only screen and (max-width : 1400px) {
+	.login-page-marketing-text{font-size: 28px;}
+}
+@media only screen and (max-width : 1300px) {
+	.login-page-marketing-text{font-size: 26px;}
+}
+@media only screen and (max-width : 1200px) {
+	.brand-title{font-size: 26px;}
+	.login-page-marketing-text{font-size: 22px;}
+}*/
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.row-full-height {  margin-top:25%!important; }
+	/*.login-page-marketing-text{font-size: 22px;}*/
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.row-full-height {  margin-top:20px!important; }
+
+	/*.login-page-marketing-text{font-size: 20px;}*/
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.row-full-height {  margin-top:20px!important; }
+
+	.page-login-v3 .page-content { padding: 0; }
+	.page-login-v3 .panel {	width: auto; padding: 10px;	}
+	.page-login-v3 .panel .panel-body {	padding: 35px 25px 35px; }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.row-full-height {  margin-top:20px!important; }
+}
+
+
+.login-marketing h2{font-size:34px}
+.login-marketing p{font-size:16px}
+.login-marketing img{width: 100%; height: auto}

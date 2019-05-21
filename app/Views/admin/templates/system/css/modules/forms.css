@@ -1,0 +1,11 @@
+.forms .question-section{border:1px solid #ccc; padding-bottom: 20px;}
+.forms .question-header{height:22px; border:1px solid #ccc;	width:100%;	position:absolute; top:0px; left:0px; background:#ccc; cursor:move;}
+.forms .move-icon {float: left; margin: 3px; color: #000; cursor: move;}
+.forms .question-number {width: auto; color: #000}
+.forms .remove-question { position: absolute; top: 3px; right: 3px; color: #000;cursor: pointer;}
+.forms .tab-content {background:white; border: 1px solid #ccc;}
+.forms .nav-tabs {border:none;}
+.forms #questionContainer{border:1px solid #ccc}
+.forms .nav-tabs > li.active > a, .forms .nav-tabs > li.active > a:hover, .forms .nav-tabs > li.active > a:focus {border-bottom-color: #00adef;	background: #00adef;color: white;}
+.forms .nav-tabs > li > a:hover{border-bottom-color: #00adef;}
+/*label {text-transform: capitalize;}*/

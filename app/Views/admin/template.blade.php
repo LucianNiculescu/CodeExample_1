@@ -1,0 +1,1 @@
+@extends('templates.' .$templateName .'.base')

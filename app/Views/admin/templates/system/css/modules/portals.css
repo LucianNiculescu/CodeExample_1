@@ -1,0 +1,117 @@
+/*********************** Portals Page ****************************/
+body.portals .portal-panel{border:1px solid #444; margin-top:20px; margin-bottom:10px}
+body.portals .portal-panel .panel-heading{background:#444; color:#fff; border-radius:0; padding-top:9px}
+body.portals .portal-panel .panel-heading h2{font-size:14px; color:#d2d2d2; padding:3px 0 7px}
+body.portals .portal-panel .panel-body{padding:20px; background:#757575}
+body.portals .portal-panel .panel-body .image-container{overflow:hidden; height:180px;}
+body.portals .portal-panel .panel-body .location-info{margin-top:20px}
+body.portals .portal-panel .panel-footer{background:#444; color:#fff; border-radius:0; padding:0 20px}
+body.portals .portal-panel .panel-footer h3{color:#d2d2d2; text-transform:capitalize; line-height:0.1em; margin:30px 0 14px 0; }
+body.portals .portal-panel .panel-footer h4{color:#aaa; line-height:1em; margin:0; margin-bottom:20px; font-size:14px}
+
+body.portals .panel-actions{right:10px}
+body.portals .action{width:20px; height:20px; border-radius:50%; display:block; background:#aaa; color:#fff; float:right; margin-left:10px; text-align:center}
+body.portals .action:hover{background:#02aeef; color:#444;}
+body.portals .action i{color:#444; padding:0}
+
+body.portals .action.delete i{padding-top:3px}
+body.portals .action.delete:hover i,
+body.portals .action.delete:hover{background:red; color:#fff;}
+
+body.portals .action_status.inactive{color:red; background:red}
+body.portals .action_status.active{color:green;; background:green}
+
+body.portals .action.language{float:left; text-align:center; overflow:hidden; margin:0 10px}
+body.portals .action.language img{height:22px; width:auto; margin:0 0 0 -1px;}
+
+body.portals h4 {line-height: 0}
+body.portals p {margin-bottom : 40px}
+body.portals .bool-attributes .input-container-switch {margin-top : 5px}
+body.portals .flip-container {perspective: 1200px}
+body.portals .flipper {min-height:440px; position: relative; transition: 1s ease; transform-style: preserve-3d; width : 100%}
+body.portals .front, body.portals .back {margin-top : 10px; backface-visibility: hidden}
+body.portals .flipped, body.portals .back {transform: rotateY(180deg); width:100%; margin-bottom :20px}
+body.portals .preview.front img {width:100%; height: 430px; position :absolute; top:0; left:0;}
+body.portals .templates {width:100%}
+body.portals #templates-container {padding-bottom:20px}
+body.portals #templates {border:solid #ccc 1px;}
+body.portals #click-on-image {border:solid #fff 1px; color:#fff; background-color:#000; position:absolute; top:160px; left:calc(50% - 170px); width:340px; padding: 5px;}
+body.portals .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{background-color: #00adef;}
+body.portals .nav-tabs > li > a {border: solid 1px #ccc; margin-right: 0;}
+body.portals .contents_frame{margin-bottom:20px}
+body.portals .nav-tabs{border:none;}
+body.portals .file-upload{text-align: center}
+
+body.portals .thumb-container{height:50px; width:50px; overflow:hidden; }
+
+body.portals .background-thumb, body.portals .template-thumb{height:50px; width:auto; }
+body.portals .background-image, body.portals .template-image{ width:auto;}
+body.portals .item{width: 400px; height: 250px;}
+body.portals p.template { white-space: nowrap; }
+
+/*********Carousel ********/
+body.portals #background-carousel, body.portals #template-carousel {margin: 20px auto; width: 400px;}
+body.portals #background-carousel .carousel-indicators, body.portals #template-carousel .carousel-indicators { margin: 10px 0 0; overflow: auto; position: static; text-align: left; white-space: nowrap; width: 100%; }
+body.portals #background-carousel .carousel-indicators li, body.portals #template-carousel .carousel-indicators li { background-color: transparent; -webkit-border-radius: 0; border-radius: 0; display: inline-block; margin: 0 !important; width: auto; }
+body.portals #background-carousel .carousel-indicators li img, body.portals #template-carousel .carousel-indicators li img { display: block; opacity: 0.5; }
+body.portals #background-carousel .carousel-indicators li.active img, body.portals #template-carousel .carousel-indicators li.active img { opacity: 1; }
+body.portals #background-carousel .carousel-indicators li:hover img, body.portals #template-carousel .carousel-indicators li:hover img { opacity: 0.75; }
+body.portals #background-carousel .carousel-outer, body.portals #template-carousel .carousel-outer { position: relative; }
+
+/*********Portal Preview********/
+/**********modal body is the size of the device screen************/
+.manage.portals .tablet-landscape .modal-body {width: 1280px; height: 800px;}
+.manage.portals .phone-portrait .modal-body {width: 360px; height: 640px; }
+.manage.portals .phone-landscape .modal-body {width: 640px; height: 360px; }
+
+/**********modal content is the size of the screen plus the padding which is the size of the device edges************/
+.manage.portals .tablet-landscape .modal-content {width: 1320px; height: 820px; padding-left: 10px; padding-top:10px;}
+.manage.portals .phone-portrait .modal-content {width: 380px; height: 700px; padding-left:10px; padding-top: 21px;}
+.manage.portals .phone-landscape .modal-content {width: 700px; height: 380px; padding-left: 21px; padding-top:10px;}
+
+/***Position of devices is different and needs testing***/
+.manage.portals .tablet-landscape .modal-dialog{margin-left: calc(50% - 620px); }
+
+
+.manage.portals .no-padding {padding: 0;}
+.manage.portals .preview-contents {height: 100%; margin-top: 10px;}
+.manage.portals .rotate-device{width: 36px; height: 36px;background: url('/admin/templates/system/images/devices/rotate.png') center center no-repeat; background-color: #eee; cursor:pointer; float:left; display: flex;}
+.manage.portals #select-device a{color: #757575;}
+.manage.portals #select-device .btn-group{margin-left: 5px}
+.manage.portals .loading-preview {position:absolute; top: 50%; left:50%; font-size: 36px; margin-left: -18px; margin-top:-28px;}
+
+
+/** Overrides **/
+body.portals .preview.front{text-align:center; padding:20px; margin-bottom:30px; border:1px solid #ccc; background:#fafafa; min-height:450px;}
+body.portals .preview.front img{max-width:1000px; max-height:100%; height:100%; width:auto; margin:0 auto; text-align:center; position:inherit;}
+body.portals .nav-tabs > li.active > a,
+body.portals .nav-tabs > li.active > a:hover,
+body.portals .nav-tabs > li.active > a:focus{background:#fafafa; color:#000; border:#ccc 1px solid; border-bottom:#fafafa 1px solid;}
+body.portals .tab-content{background:#fafafa;border:1px solid #ccc; margin:0 0;}
+body.portals .tab-content .tinymceTab{margin:20px;}
+body.portals #templates{border:none;}
+
+body.portals .nav.nav-tabs li:first-child a{border-right:none;}
+body.portals h3{margin-top:0}
+
+/**	Portal Templates **/
+body.manage.portals .portal-templates {padding:0;}
+body.manage.portals .portal-templates .template-item.active { border:1px solid #aaa; background-color:#eee;}
+body.manage.portals .portal-templates .template-big-img {position:relative; padding:20px 0 20px 20px; height:auto;}
+body.manage.portals .portal-templates .template-big-img #template_preview {width:100%; height:auto;border:1px solid #eee;}
+body.manage.portals .portal-templates .templates-container {overflow:auto; max-height:500px;}
+body.manage.portals .portal-templates .templates-container .templates-wrapper {height:auto;}
+body.manage.portals .portal-templates .templates-container .templates-wrapper .template-item {cursor:pointer; margin:20px 20px 0 0}
+body.manage.portals .portal-templates .templates-container .templates-wrapper .template-item .portal-template-thumb{width:120px; height:auto; display:inline-block; vertical-align:top; padding-right:20px;}
+body.manage.portals .portal-templates .templates-container .templates-wrapper .template-item .portal-template-info{display:inline-block;width:65%;}
+body.manage.portals .portal-templates .templates-container .templates-wrapper .template-item .portal-template-info .portal-template-description{font-size:12px;}
+
+/** Portals Background chooser **/
+#backgroundChooserAccordion.panel-group .panel-title:before,
+#backgroundChooserAccordion.panel-group .panel-title:after{top:8px}
+#backgroundChooserAccordion .panel-heading{border:1px solid #eee; background:#eee}
+#backgroundChooserAccordion .panel-heading a{color:#757575; padding:8px 30px;}
+#backgroundChooserAccordion .panel-body{border: 1px solid #eee; border-top:none; text-align:center}
+#backgroundChooserAccordion .background-list{padding:0; margin:0; list-style:none;}
+#backgroundChooserAccordion .background-list li{padding:0; margin:0; list-style:none; width:25%; height:80px; overflow:hidden; float:left; cursor: pointer}
+#backgroundChooserAccordion .background-list li img{width:auto; height:100%}

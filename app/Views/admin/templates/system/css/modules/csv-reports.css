@@ -1,0 +1,14 @@
+body.reports.csv .btn.custom-period.period-btn {display:none;}
+body.reports.csv .csv-selector {border: 1px #ccc solid;margin:0;padding:0;border-bottom:none;}
+body.reports.csv .csv-selector .list-group-item:focus,
+body.reports.csv .csv-selector .list-group-item.active {outline:none; background-color:#00445e; color:#fff;}
+
+/* Styles related to the period settings on the CSV reports (which was previously its own widget */
+#csvSettings .period-buttons .btn.disabled	{background: #ccc;color: white;outline: none;}
+#csvSettings .btn-info{background: #00445e;}
+#csvSettings .period-buttons .btn.active{background-color: #5a8696;color: white;outline: none;}
+
+#csvSettings .period-btn{height: 101px; border: 3px solid white}
+#csvSettings .custom-period{height: 35px;padding:3px; margin-top: -10px;	}
+#csvSettings.panel-body{	margin:0px; padding:3px;}
+#csvSettings .periods{margin:0px; padding:3px;}

@@ -1,0 +1,216 @@
+<style>
+
+body {height:100%;}
+
+#aa_bg {
+	position: fixed;
+	top:-50%;
+	left:-50%;
+	width:200%;
+	height: 200%;
+	z-index: -10;
+}
+
+#aa_bg img {
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	min-width: 50%;
+	min-height: 50%;
+}
+
+.wrap {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	margin:0;
+	color: %%BACKGROUND_COLOR%%;
+	height:100%;
+}
+
+.wrap .wrapper {
+	max-width:600px;
+	margin: 0 auto;
+	height:100%;
+}
+
+.wrap .header {
+	width: 100%;
+	height: 150px;
+}
+
+.wrap .center {
+	width: 100%;
+}
+
+/*.wrap .top-fixed {
+	width: 100%;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index: 100;
+}*/
+
+.wrap .bottom-fixed {
+	width: 100%;
+	position:fixed;
+	left:0;
+	bottom:0;
+}
+
+.wrap .logo {
+	margin:0 auto;
+	background-color: #FFF;
+	height:145px;
+	width:275px;
+    border-radius: 0 0 300px 300px;
+	-moz-border-radius: 0 0 300px 300px;
+	-webkit-border-radius: 0 0 300px 300px;
+}
+
+.wrap .logo img {
+	display: block; 
+	width: 145px;
+	padding-top:10px;
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+.wrap .center-text-red {
+	margin-top: 20px;
+	font-size: 25px;
+	background-color: %%BACKGROUND_COLOR%%;
+	color: #FFF;
+	display: inline-block;
+}
+
+.wrap .center-text-red p{
+	padding: 10px;
+	display: inline;
+	width: auto;
+	white-space: nowrap;
+}
+
+.wrap .center-text-black {
+	max-width:350px;
+	font-size: 25px;
+	background-color: #262523;
+	color:#FFF;
+	margin-bottom: 20px;
+}
+
+.wrap .center-text-black p{
+	padding: 8px;
+}
+
+.wrap #buttonContainer {
+	display: block;
+}
+
+.wrap button {
+	background-color: %%BACKGROUND_COLOR%%;
+	padding: 15px 20px;
+	border-radius: 5px;
+	color: #FFF;
+	width: auto;
+	margin:5px 0;
+	display: block;
+}
+
+.wrap button:hover {
+	background-color: %%BORDER_COLOR%%;
+}
+
+.wrap .footer {
+	vertical-align: bottom;
+	margin:0 auto;
+	background-color: #FFF;
+	height:130px;
+	width:255px;
+    border-radius: 300px 300px 0 0;
+    -moz-border-radius: 300px 300px 0 0;
+    -webkit-border-radius: 300px 300px 0 0;
+	position:relative;
+}
+
+.wrap .round-footer {
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	margin-left: -127px;
+}
+
+.wrap .footer .footer-text {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	width:80%;
+	padding:0 0 20px 10%;
+	color: #000;
+}
+
+.wrap .main-footer {
+	border-top: solid 2px %%BACKGROUND_COLOR%%;
+	background-color: #000;
+	width: 100%;
+	text-align: center;
+	padding: 6px 0;
+	color: #fff;
+}
+
+@media only screen and (max-width: 568px) {
+	.wrap .round-footer {
+		position: relative;
+		bottom:0;
+		left: 0;
+		margin: 0 auto 10px;
+	}
+	.wrap .center-text-red {width:100%;}
+	.wrap .center-text-black {font-size:24px; margin-bottom:20px; width:100%;}
+	.wrap button {width:100%}
+}
+
+.wrap .headerOne {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	padding-top:30px;
+	font-size: 40px;
+
+}
+</style>
+
+<div id="aa_bg"><img src="/images/bg.jpg" /></div>
+
+<div class="wrap">
+	<div class="wrapper">
+		<div class="header top-fixed">
+			<div class="logo">
+				<img src="/images/logo.png">
+			</div>
+		</div>
+
+		<div class="center">
+			<div class="center-text-red">
+				<p>%%COMPANYNAME%%</p>
+			</div>
+			<div class="center-text-black">
+				<p style="font-size:1em">Your text here</p>
+				<p style="font-size:1.2em">%%WELCOME%%</p>
+				<p style="font-size:1.3em">More text here</p>
+			</div>
+			%%BUTTONS%%
+		</div>
+
+	</div>
+	<div class="round-footer">
+		<div class="footer">
+			<p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		</div>
+	</div>
+	<div class="bottom-fixed">
+
+		<div class="main-footer"></div>
+	</div>
+</div>

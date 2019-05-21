@@ -1,0 +1,94 @@
+<style scoped="scoped">
+	body {margin:0; padding:0}
+	.wrap .clear {clear:both;}
+
+	/* BACKGROUND */
+	#aa_bg{position:fixed; top:-50%; left:-50%; width:200%; height: 200%; z-index: -10;}
+	#aa_bg img{position: absolute; top:0; left:0; right:0; bottom:0; margin:auto; min-width:50%; min-height:50%;}
+	/* BACKGROUND END */
+
+	.wrap {font-family:arial,sans-serif; font-weight:100; padding:0 50px;}
+
+	.wrap .akero_main {margin:0 auto; background-color:#595959; background-color:rgba(0,0,0,.50); min-width:230px;
+		max-width:700px; padding-bottom:4%; border-bottom-right-radius:20px; border-bottom-left-radius:20px;}
+	.wrap .akero_header {padding:0 20px 0 20px; background-color:#1B1B1B;}
+	.wrap .akero_button_login{height:300px; text-align:center; margin-left:-17px; z-index:10; position:relative; top:20px;}
+
+	.wrap .akero_button_login button:active,
+	.wrap .akero_button_login button:hover,
+	.wrap .akero_button_login button:visited,
+	.wrap .akero_button_login button:focus{border:none; outline:0;}
+
+	.wrap .akero_content {padding:20px;}
+
+	.wrap .akero_content .cont_logo {background-color:#FFF; height:100px; text-align:center; padding:20px 0 30px 0;
+		border-radius:30px;	width:250px; margin:0 auto;}
+
+	/* Make the logo fit correctly no matter what is uploaded */
+	.wrap .akero_content .cont_logo img {max-width:205px; width:100%;}
+
+	.wrap .h1{font-size:20px; color: #fff;}
+	.wrap .h2{font-size:20px; color:#ccc;}
+
+	.wrap h1.company_name {margin:15px 0 12px 0; float:left; letter-spacing: 1px;}
+	.wrap h2.strap_line {margin:15px 0 12px 0; float:right; letter-spacing: 1px;}
+
+	.wrap .akero_full_bar_top {position:absolute; left:0; top:0; width:100%; background-color:#555555;
+		background-color:rgba(0,0,0,.70); height:54px; z-index:-1;}
+	.wrap .akero_full_bar_bottom {position:fixed; left:0; bottom:0; width:100%; background-color:#555555;
+		background-color:rgba(0,0,0,.70); height:40px; z-index:-2;}
+	.wrap .akero_full_bar_bottom .paragraph {color:#FFF; text-align:center; font-size:12px;}
+
+	/* BUTTONS */
+	.wrap .akero_button_login .akero_login {margin-top:-301px; margin-left:8px; border-radius:0 150px;}
+
+	.wrap .akero_button_login button{padding:0; margin:0 auto; cursor:pointer; border:none; display:block; z-index:2;
+		background:url("/images/social2.png") bottom left no-repeat; width:168px; height:84px; position:relative;
+		box-shadow:none; border-radius:0;}
+
+	.wrap .akero_button_login button.register{background-image:url("/images/register3.png"); width:84px; float:left}
+	.wrap .akero_button_login button.login{background-image:url("/images/login3.png"); width:84px; float:left}
+	.bottom_buttons{clear:both; width:168px; margin:0 auto;}
+
+	.wrap .akero_button_login button:hover{background-position:left top;}
+
+	@media (max-width: 530px)
+	{
+		.wrap { padding:0; }
+		.wrap h2.strap_line{display:none}
+		.wrap .akero_main {margin: 0 auto 40px auto; border-radius:0;
+		}
+	}
+
+</style>
+
+<div id="aa_bg"><img src="/images/bg.jpg" /></div>
+
+<div class="wrap">
+	<div class="akero_full_bar_top"></div>
+	<div class="akero_main">
+		<div class="akero_header clear">
+			<h1 class="h1 left company_name"><strong>%%COMPANYNAME%%</strong></h1>
+			<h2 class="h2 right strap_line">WiFi Access</h2>
+		</div>
+		<div class="akero_button_login clear">
+			<img src="/images/loginholder.png">
+			<div class="akero_login">
+				<button class="social" data-action="social">&nbsp;</button>
+				<div class="bottom_buttons">
+					<button class="register" data-action="register">&nbsp;</button>
+					<button class="login" data-action="login">&nbsp;</button>
+				</div>
+			</div>
+		</div>
+		<div class="akero_content">
+			<div class="cont_logo"><img src="/images/logo.png"/></div>
+			<div class="akero_footer">
+				<div class="bar_logos"></div>
+			</div>
+		</div>
+		<div class="akero_full_bar_bottom">
+			<p class="paragraph">Designed and supported by Airangel Limited</p>
+		</div>
+	</div>
+</div>

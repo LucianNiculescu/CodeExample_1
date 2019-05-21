@@ -1,0 +1,45 @@
+/* ----------------------- Manage injectionjets ---------------------------*/
+body.manage.injectionjets .widget{border:1px solid #CACACA; background:#fafafa; min-height:190px; border-radius:3px;margin-bottom:30px;
+	position:relative; padding:35px 10px 10px; display:block;color:#00adef}
+body.manage.injectionjets .widget:hover,
+body.manage.injectionjets .widget:active,
+body.manage.injectionjets .widget:focus{transition:1s; -webkit-transition:1s; border:1px solid #00adef;text-decoration: none;}
+
+body.manage.injectionjets .widget.adjet-edit{padding:10px; height:370px;line-height: 15px;}
+body.manage.injectionjets .widget.adjet-edit small.status{position:absolute; bottom:30px; left:10px; font-size:85%}
+body.manage.injectionjets .widget.adjet-edit .btn.btn-info.edit{position:absolute; bottom:10px; right:10px}
+body.manage.injectionjets .widget.adjet-edit.inactive{opacity:.5}
+body.manage.injectionjets .widget .title-tooltip{height:46px; overflow:hidden}
+
+body.manage.injectionjets .widget.adjet-edit a.adjet-link{color:#000000;text-decoration: none;}
+
+/*body.manage.injectionjets .widget.adjet-edit .thumbnail{height:148px; overflow:hidden; position:relative}
+body.manage.injectionjets .widget.adjet-edit .thumbnail > img{position:absolute; bottom:5px; right:5px; width:95%;}*/
+
+body.manage.injectionjets .widget.adjet-edit .adjet-info{ margin-bottom:15px; padding:10px}
+body.manage.injectionjets .widget.adjet-edit .thumbnail{margin:0}
+body.manage.injectionjets .widget.adjet-edit .create-button{bottom: 10px;right: 10px; position: absolute}
+
+/*body.injectionjets .widget-container{border-bottom:1px solid #666; margin-bottom:30px}*/
+body.manage.injectionjets .widget-container a.adjet-link:hover,
+body.manage.injectionjets .widget-container a.adjet-link:active,
+body.manage.injectionjets .widget-container a.adjet-link:focus{text-decoration: none;}
+body.manage.injectionjets .widget-container .widget:hover{transition:1s; -webkit-transition:1s; border:1px solid #00adef;}
+body.manage.injectionjets .widget-container .widget{min-height:320px;padding:10px}
+body.manage.injectionjets a.adjet-link{color:#000000}
+
+body.manage.injectionjets .adjet-info{ margin-bottom:15px; padding:10px}
+/*body.manage.injectionjets .thumbnail{margin:-25px 0 0 0; height:148px; overflow:hidden; position:relative}
+body.manage.injectionjets .thumbnail img{position:absolute; bottom:5px; max-width:95%;}*/
+body.manage.injectionjets .create-button{bottom: 10px; right:10px; position:absolute}
+
+body.manage.injectionjets .input-container-duration .input-group-addon{min-width: 70px;}
+
+body.manage.injectionjets .colorInputUi-alpha {display:none;} /*We don't need the transparency of the colorpicker in the injectionjets*/
+
+body.manage.injectionjets .remove-icon{display:none;}
+body.manage.injectionjets .social-url.inactive{display: none;}
+body.manage.injectionjets .social-url.active{display: block;}
+
+body.manage.injectionjets .min-width-90{min-width: 90px;}
+body.manage.injectionjets .border-bottom { border-bottom: 1px #ccc solid; margin-bottom: 30px;}
